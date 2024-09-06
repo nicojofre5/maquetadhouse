@@ -33,14 +33,14 @@ nav {
 }
 .home-herosection{
     display: flex;
-    justify-content: space-around;
-    padding: 150px 20px;
+    justify-content: space-between;
+    padding: 120px 40px;
     
 }
 .main-home{
     display: grid;
-    grid-template-columns: 0.5fr 18fr 0.5fr;
-    min-height: 80vh;
+    grid-template-columns: 0.5fr 9fr 1fr;
+    min-height:85vh;
    
 }
 aside{
@@ -56,7 +56,36 @@ aside{
     font-size: 1.9rem;
     padding: 4px;
     text-align: center;
+
 }
 .flecha-abajo{
     align-self: flex-end;
+    text-align: center;
+   
+    
+}
+.fa-caret-down{
+    padding: 15px 18px;
+    border:2px solid rgb(75, 0, 126);
+    border-radius: 100%;
+    font-size: 1.3rem;
+    background-color: rgba(34, 0, 34, 0.829);
+    cursor: pointer;
+}
+.text-home h1{
+    font-size: 1.1rem;
+    padding:10px 0px;
+}
+.text-home h2{
+font-size: 1.5rem;
+padding:10px 0px;
+}
+.text-home p{
+    font-size: 1.2rem ;
+    max-width: 900px; padding:8px 0px 20px;
+}
+.img-perfil{
+    width: 300px;
+    border: 5px solid rgb(143, 11, 143);
+    border-radius: 100%;
 }
