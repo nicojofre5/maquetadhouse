@@ -1,11 +1,62 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-body{
-    font-size: 62.5%;
+body {
+  font-size: 62.5%;
+  background: rgb(1,0,19);
+  background: linear-gradient(90deg, rgba(1,0,19,1) 0%, rgb(32, 1, 49) 14%, rgba(15,15,15,1) 83%);
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.menu{
+    display: flex;
+    gap: 4px;
+    font-size: 1.3rem;
+}
+.nav-link{
+    padding: 8px;
+}
+
+.logo-text{
+    font-size: 1.9rem;
+    padding: 10px;
+}
+.home-herosection{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 20px;
+    
+}
+.main-home{
+    display: grid;
+    grid-template-columns: 0.5fr 18fr 0.5fr;
+    min-height: 80vh;
+   
+}
+aside{
+    align-self: center;
+   
+}
+.cont-redes{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.cont-redes i{
+    font-size: 1.9rem;
+    padding: 4px;
+    text-align: center;
+}
+.flecha-abajo{
+    align-self: flex-end;
 }
