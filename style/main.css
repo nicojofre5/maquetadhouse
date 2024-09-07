@@ -3,6 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* fuente */
+/* .handjet-<uniquifier> {
+  
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "ELGR" 1,
+      "ELSH" 2;
+  } */
 ul {
   list-style: none;
 }
@@ -25,11 +36,18 @@ nav {
 }
 .nav-link{
     padding: 8px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    margin: 10px;
+}
+.nav-link:hover{
+    color: rgb(221, 67, 221);
 }
 
 .logo-text{
-    font-size: 1.9rem;
+    font-size: 3.2rem;
     padding: 10px;
+    font-family: "Handjet", sans-serif;
 }
 .home-herosection{
     display: flex;
